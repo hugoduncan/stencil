@@ -63,7 +63,7 @@ AST on subsequent renders, greatly improving the speed.
 ## Lower Level APIs
 
 You can also manage things at a much lower level, if you prefer. In the
-`stencil.loader` namespace are functions that Stencil itself uses the load
+`stencil.loader` namespace are functions that Stencil itself uses to load
 and cache templates. In particular, the function `load` will take a template
 name and return the parsed AST out of cache if possible, and if not, it will
 load and parse it. The AST returned from `load` can then be rendered with
